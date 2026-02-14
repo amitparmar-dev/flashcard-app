@@ -1,12 +1,10 @@
 import './App.css'
-import MyComponent from './Components/MyComponent'
-
+import FlashCard from './Components/FlashCard'
 function App() {
 
   return (
     <div className="App">
-      <h1>My App Component</h1>
-      <MyComponent />
+      <FlashCard />
     </div>)
 }
 
